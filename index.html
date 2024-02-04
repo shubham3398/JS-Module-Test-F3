@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main-body">
+        <div class="first">
+            <h1>This Application Allows you to extract information about the nearest Post Offices, based on your
+                location.</h1>
+            <img src="./assets/undraw_messenger_re_8bky 1.svg" alt="">
+        </div>
+        <div class="second">
+            <div>
+                <div>Your Current IP Address is <span id="ip">127.0.01</span></div>
+                <button id="start">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="detail">
+            <div>IP Address : <span class="value ip"></span></div>
+            <div class="detail-r2">
+                <div>
+                    <div>Lat : <span class="value lat"></span></div>
+                    <div>Long : <span class="value long"></span></div>
+                </div>
+                <div>
+                    <div>City : <span class="value city"></span></div>
+                    <div>Region : <span class="value region"></span></div>
+                </div>
+                <div>
+                    <div>Organisation : <span class="value organisation"></span></div>
+                    <div>Hostname : <span class="value hostname"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="map-container">
+            <div class="r1">Your Current Location</div>
+            <div class="map"></div>
+        </div>
+        <div class="other-detail">
+            <div class="title">More Information About You</div>
+            <div>
+                <div>Time Zone: <span class="value timezone"></span></div>
+                <div>Date And Time: <span class="value date"></span></div>
+                <div>Pincode: <span class="value pincode"></span></div>
+                <div>Messages: <span class="value message"></span></div>
+            </div>
+        </div>
+        <div class="offices-nearby">
+            <div class="search">
+                <img src="./assets/Vector.svg" alt="img">
+                <input type="text" name="text" id="search" placeholder="Search By Name">
+            </div>
+            <div class="card-container">
+                <!-- <div class="card-body">
+                    <div>Name: <span class="value"></span></div>
+                    <div>Branch Type: <span class="value"></span></div>
+                    <div>Delivery Status: <span class="value"></span></div>
+                    <div>District: <span class="value"></span></div>
+                    <div>Division: <span class="value"></span></div>
+                </div> -->
+                
+            </div>
+            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
